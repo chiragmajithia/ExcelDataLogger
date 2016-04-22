@@ -187,7 +187,7 @@ public class DatabaseApplication extends javax.swing.JFrame
         /* Create and display the form */
         
         //database.createSheet("Append Test");
-        final DatabaseApplication db = new DatabaseApplication();
+        DatabaseApplication db = new DatabaseApplication();
         db.jTab.add(new ConnectDatabase());
         db.jTab.setTitleAt(0, "Connect to Database");
         

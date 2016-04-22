@@ -37,7 +37,7 @@ public class HeaderPanel extends javax.swing.JPanel {
         jFieldsPanel.setLayout(jFieldsPanelLayout);
         for(int i = 0; i < fields.length; i++)
         {
-            final JCheckBox cb = new JCheckBox(fields[i]);
+            JCheckBox cb = new JCheckBox(fields[i]);
             Dimension d = new Dimension(100,20);
             cb.setPreferredSize(d);
             cb.setMaximumSize(d);
